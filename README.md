@@ -9,3 +9,13 @@ The **Collatz Conjecture** is a conjecture in mathematics that conerns a sequenc
 In other words, given any positive integer $n$, we have such sequence of integers where the first element is $n$, and every other element equals the previous element transformed by $f$ where
 
 $$f(n) = \begin{cases}n / 2 & \text{ if $n$ is even } \\ 3n + 1 & \text{ if $n$ is odd }\end{cases}$$
+
+And the Collatz Conjecture states that this sequence would always reach 1.
+
+## Visualizations
+
+![visualization](visualization.png)
+
+## Not-A-Proof
+
+If we can show that
