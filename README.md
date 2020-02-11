@@ -12,10 +12,18 @@ $$f(n) = \begin{cases}n / 2 & \text{ if $n$ is even } \\ 3n + 1 & \text{ if $n$ 
 
 And the Collatz Conjecture states that this sequence would always reach 1.
 
+## Example
+
+27 => 82 => 41 => 124 => 62 => 31 => 94 => 47 => 142 => 71 =>
+
 ## Visualizations
 
 ![visualization](visualization.png)
 
+## Reference
+
+[The 3x+1 Problem: An Annotated Bibliography (1963 - 1999) *by Jeffery C. Lagarias*](https://arxiv.org/pdf/math/0309224.pdf)
+
 ## Not-A-Proof
 
-If we can show that
+If a sequence that starts with $n$ would reach 1, we say that $n$ satisfy the Collatz conjecture property. It is clear that if all the odd numbers satisfy the Collatz conjecture property, then all then even numbers would satisfy the Collatz conjecture property. From now on, we only consider odd positive integers.

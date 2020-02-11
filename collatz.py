@@ -14,8 +14,23 @@ def step(n):
         return 3 * n + 1
 
 
+def summary(n):
+    if n <= 0 or not isinstance(n, int):
+        raise ValueError('Input parameter n is not an integer.')
+    print(n, end='')
+    count = 0
+    while True:
+        n = step(n)
+        print(' => {:d}'.format(n), end='')
+        count += 1
+        if n == 1:
+            break
+    print('\n{:d} steps'.format(count))
+
+
 if __name__ == '__main__':
 
+    """
     x = 7
     count = 0
     while True:
@@ -26,3 +41,6 @@ if __name__ == '__main__':
             x = step(x)
             count += 1
     print('Took {:d} iterations'.format(count))
+    """
+
+    summary(7)

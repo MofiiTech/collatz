@@ -33,6 +33,7 @@ if __name__ == '__main__':
         }, ignore_index=True)
 
     print(df)
+    exit()
 
     plt.figure(figsize=(10, 10))
     plt.subplot(211)
