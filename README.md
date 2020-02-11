@@ -14,7 +14,7 @@ And the Collatz Conjecture states that this sequence would always reach 1.
 
 ## Example
 
-27 => 82 => 41 => 124 => 62 => 31 => 94 => 47 => 142 => 71 =>
+7 => 22 => 11 => 34 => 17 => 52 => 26 => 13 => 40 => 20 => 10 => 5 => 16 => 8 => 4 => 2 => 1
 
 ## Visualizations
 
