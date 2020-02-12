@@ -4,6 +4,11 @@
 # @Date : 2020-02-10
 # @Author : Wufei Ma
 
+import os
+import sys
+
+import math
+
 import numpy as np
 import pandas as pd
 
@@ -15,7 +20,7 @@ import collatz
 if __name__ == '__main__':
 
     df = pd.DataFrame(columns=['initial', 'maximum', 'iterations', 'ratio'])
-    for i in range(1, 500):
+    for i in range(1, 200001):
         x = i
         start = i
         maximum = i

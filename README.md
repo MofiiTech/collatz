@@ -18,7 +18,7 @@ And the Collatz Conjecture states that this sequence would always reach 1.
 
 ## Visualizations
 
-![visualization](visualization.png)
+![visualization](visualization_20000.png)
 
 ## Reference
 
